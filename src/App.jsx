@@ -1,14 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import Menu from './Components/Menu'
+import "./style/Menu.css"
 
 const  App = () => {
   return (
-    <div className="Header">
-      <Container>
-
-      </Container>
-    </div>
+    <Menu />
   )
 }
 
-export default App
+export default App;
