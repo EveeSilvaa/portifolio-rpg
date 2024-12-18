@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Menu from './Components/Menu'
-import "./style/Menu.css"
+import "./style/global.css"
 
 const  App = () => {
   return (

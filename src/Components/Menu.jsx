@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Menu = () => {
   return (
     <Flex className="Menu">
@@ -9,7 +10,7 @@ const Menu = () => {
       <Navlink href="#" text="Maestrias" />
       <Navlink href="#" text="Contato" />
     </Flex>
-  )
+  );
 }
 
 export default Menu;
