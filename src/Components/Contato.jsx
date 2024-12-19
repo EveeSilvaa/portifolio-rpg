@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import React from 'react'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import React from "react";
 
-function Contato() {
+const  Contato = () => {
   return (
     <div>
         <h1>Contato</h1>
@@ -11,6 +11,6 @@ function Contato() {
         </p>
     </div>
   );
-}
+};
 
 export default Contato;

@@ -1,23 +1,23 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import Projetos from "./Components/Projetos";
 import Contato from "./Components/Contato";
+import Header from "./components/Header";
 
 
 
-function App () {
+const App = () => {
   return (
     <>
-      <Navbar />
-      <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projetos" element={<Projetos />} />
-          <Route path="/contato" element={<Contato />} />
-      </Routes>
+    <div>
+      <Header />
       <Footer />
+      <Contato />
+      <Home />
+      <Projetos />
+    </div>
     </>
   );
 }
