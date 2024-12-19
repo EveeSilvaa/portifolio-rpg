@@ -1,6 +1,6 @@
 import React from "react";
 
-function Home() {
+const Home = () => {
   return (
     <motion.div
         initial={{ opacity: 0, y: -50 }}
@@ -11,6 +11,6 @@ function Home() {
         <h1>Bem-vindo ao meu Portifólio RPG!</h1>
     </motion.div>
   );
-}
+};
 
 export default Home;
