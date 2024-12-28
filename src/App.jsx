@@ -1,24 +1,16 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom";
-import Footer from "./Components/Footer";
-import Home from "./Components/Home";
-import Projetos from "./Components/Projetos";
-import Contato from "./Components/Contato";
-import Header from "./components/Header";
 
-
-
-const App = () => {
+function App  (){
   return (
-    <>
-    <div>
-      <Header />
-      <Footer />
-      <Contato />
-      <Home />
-      <Projetos />
-    </div>
-    </>
+   <header>
+      <image src="logo.png" alt="Logo" />
+      <nav>
+        <ul>
+          <li><a href="/Home">Home</a></li>
+          <li><a href="/sobre">Sobre</a></li>
+          <li><a href="/contato">Contato</a></li>
+        </ul>
+      </nav>
+   </header>
   );
 }
 
